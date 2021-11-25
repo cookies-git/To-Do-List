@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME :: To-do</title>
+    <link rel="stylesheet" href="./mainstyle.css">
+    <link rel="stylesheet" href="./bootstrap/bootstrap.min.css" class="css">
+    <!-- google fonts -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Mr+Dafoe&display=swap" rel="stylesheet"> 
+      <link href="https://fonts.googleapis.com/css2?family=Mrs+Sheppards&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Damion&display=swap" rel="stylesheet"> 
+      <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+     <!-- google fonts -->
+</head>
+<body>
+
+<!-- navigation -->
+    <div>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark text-light">
+            <a class="navbar-brand p-3" href="#" style="font-family: 'Mrs Sheppards', cursive; font-size:xx-large">To-do List</a>
+            <div class="container">
+              
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <div>
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-center"  >
+                  <li class="nav-item" >
+                    <a class="nav-link active" aria-current="page" href="./todo-main.html" style="     font-family: 'Oswald', sans-serif; font-size:large;">Home</a>
+                  </li>
+                  <li class="nav-item ">
+                    <a class="nav-link" href="./index.html" style="     font-family: 'Oswald', sans-serif; font-size:large;">Logout</a>
+                  </li>
+                </ul>
+                  </div>
+                 
+              </div>
+            </div>
+          </nav>
+    </div>
+    <!-- navigation -->
+
+    <!-- div -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script> -->
+
+    <div class="container">
+
+        <table class="table mt-3" id="todo-table">
+            <thead>
+              <tr>
+                <th scope="col">Check-Me</th>
+                <th scope="col">List-Items</th>
+                
+              </tr>
+            </thead>
+            <tbody>
+                <tr>
+                <tbody id="tab-body">
+                </tbody> 
+            </tr>          
+                </tbody>
+         </table>
+         
+    </div>
+    <!-- div -->
+
+    <footer class="container-full-width p-1 bg-light text-dark text-center">
+      <span class="footer2"> Made with </span> <span class="heart">❤️</span> <span class="footer"></span>
+   </footer>
+
+   <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script> 
+    <script src="./todo.js"></script>
+    <script src="./bootstrap/bootstrap.min.js"></script>
+    <script src="./bootstrap/jquery-3.6.0.min.js"></script>
+    <script src="./bootstrap/popper.min.js"></script>   
+</body>
+</html>
